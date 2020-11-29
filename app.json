@@ -1,0 +1,26 @@
+{
+  "name": "habitica-discord",
+  "description": "Link the chats of a Habitica party and a Discord channel together",
+  "repository": "https://github.com/thewilloftheshadow/habitica-discord",
+  "keywords": [
+    "habitrpg",
+    "habitica",
+    "discord"
+  ],
+  "env": {
+    "DISCORD_TOKEN": {
+      "description": "The token of the Discord bot you created."
+    },
+    "USER_ID": {
+      "description": "Your User ID from Habitica."
+    },
+    "USER_TOKEN": {
+      "description": "Your user token from Habitica"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
